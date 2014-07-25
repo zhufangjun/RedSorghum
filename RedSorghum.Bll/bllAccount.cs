@@ -22,5 +22,10 @@ namespace RedSorghum.Bll
         {
             return dal.GetAccountById(id);
         }
+
+        public bool Login(string username, string password)
+        {
+            return false;
+        }
     }
 }
